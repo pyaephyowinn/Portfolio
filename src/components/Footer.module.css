@@ -8,3 +8,9 @@
 .foot span {
   color: var(--clr-purple-light);
 }
+
+@media (max-width:576px) {
+  .foot {
+    font-size: .75rem;
+  }
+}

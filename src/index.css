@@ -51,7 +51,7 @@ body {
 @media (max-width: 576px) {
   :root {
     --fs-header: calc(var(--fs-n) * 1.75);
-    --fs-el: calc(var(--fs-n) * 2);
+    --fs-el: calc(var(--fs-n) * 1.375);
     --spacer: .75rem;
   }
 }

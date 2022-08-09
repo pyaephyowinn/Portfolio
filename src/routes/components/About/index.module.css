@@ -72,7 +72,7 @@
 
 @media (max-width: 576px) {
   .about-info p {
-    line-height: 1.5;
+    line-height: 1.25;
   }
   .about-info .btn-contact {
     display: none;
