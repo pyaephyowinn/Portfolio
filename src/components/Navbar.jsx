@@ -16,7 +16,7 @@ const Navbar = () => {
         <li>
           <a href="#skills">Skills</a>
         </li>
-        <Link to="/contact" className={styles.important}>
+        <Link to="/portfolio/contact" className={styles.important}>
           Say Hi
         </Link>
       </ul>
