@@ -5,7 +5,7 @@ const NotFound = () => {
   return (
     <div className={styles.container}>
       <h1>Page is not found</h1>
-      <p>Go to <Link to={"/"}>Home</Link></p>
+      <p>Go to <Link to={"/portfolio/"}>Home</Link></p>
     </div>
   )
 }

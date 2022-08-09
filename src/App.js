@@ -7,9 +7,10 @@ import NotFound from "./routes/NotFound";
 const App = () => {
   return (
     <Routes>
-      <Route index element={<HomePage />} />
-      <Route path="/contact" element={<Contact />} />
+      <Route path="/portfolio/" element={<HomePage />} />
+      <Route path="/portfolio/contact" element={<Contact />} />
       <Route path="*" element={<NotFound />} />
+      {/* <Route path="*" element={<Navigate to={"/"} />} /> */}
     </Routes>
   );
 };
