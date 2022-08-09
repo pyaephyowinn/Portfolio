@@ -1,0 +1,10 @@
+.foot {
+  text-align: center;
+  color: var(--clr-white);
+  background: var(--clr-purple-dark);
+  padding: var(--spacer-s) 0;
+}
+
+.foot span {
+  color: var(--clr-purple-light);
+}

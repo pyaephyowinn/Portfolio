@@ -1,0 +1,115 @@
+.projects-container {
+  min-height: 300px;
+  margin-bottom: var(--spacer);
+}
+
+.container {
+  width: var(--container-width);
+  margin-inline: auto;
+  height: 100%;
+  padding: var(--spacer) var(--spacer-l);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.projects-container h2 {
+  font-size: var(--fs-header);
+  font-weight: var(--fs-n);
+}
+
+.projects-grid {
+  flex-basis: 300px;
+  flex-grow: 1;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(max(30%, 250px), 1fr));
+  align-items: center;
+  gap: 10px;
+
+  margin-block: var(--spacer-m);
+}
+
+.project-card {
+  margin-bottom: 1rem;
+  position: relative;
+}
+
+.project-card img {
+  width: 100%;
+  aspect-ratio: 16/9;
+  border: 1px solid var(--clr-black);
+  display: block;
+}
+
+.project-description {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  opacity: 0;
+
+  transition: all 0.3s;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-description:hover {
+  opacity: 1;
+}
+
+.project-description h4 {
+  margin-bottom: var(--spacer);
+  font-weight: var(--fw-m);
+}
+
+.project-description p {
+  width: 90%;
+  font-weight: var(--fw-l);
+  margin-bottom: var(--spacer-m);
+}
+
+.project-links a {
+  padding: var(--spacer-xs) var(--spacer);
+  color: var(--clr-orange);
+  border: 1px solid var(--clr-orange);
+  border-radius: 100vmax;
+}
+
+.project-links a:first-child {
+  color: var(--clr-white);
+  background: var(--clr-orange);
+  padding-inline: var(--spacer-m);
+  margin-right: .5rem;
+}
+
+.project-card a:hover {
+  text-decoration: none;
+}
+
+.projects-container .action {
+  text-align: center;
+}
+
+.btn-all-projects {
+  font-size: var(--fs-n);
+  color: var(--clr-white);
+  background: var(--clr-orange);
+  border: none;
+  border-radius: var(--btn-border-radius);
+  padding: var(--spacer-s) var(--spacer-l);
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.action p {
+  margin-top: 1rem;
+  font-weight: var(--fw-el);
+  font-style: var(--fs-n);
+}

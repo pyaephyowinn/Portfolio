@@ -1,0 +1,77 @@
+.skills-container {
+  background: var(--clr-orange);
+  color: var(--clr-white);
+}
+
+.container {
+  width: var(--container-width);
+  margin-inline: auto;
+}
+
+.skills-container .spacing {
+  height: 200px;
+}
+
+.skills-body {
+  text-align: center;
+  padding: var(--spacer-m) 0;
+  height: min(80vh, 864px);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  width: var(--container-width);
+  margin-inline: auto;
+}
+
+.skills-header h2 {
+  font-size: var(--fs-header);
+  font-weight: var(--fs-m);
+  line-height: 1;
+}
+
+.skills-header span {
+  color: var(--clr-black);
+  font-weight: var(--fw-l);
+}
+
+.tools-container h3 {
+  font-size: var(--fs-m);
+  font-weight: var(--fw-l);
+  margin-bottom: var(--spacer-s);
+}
+
+.tools-container p {
+  color: var(--clr-black);
+
+  font-size: var(--fs-l);
+  font-weight: var(--fw-n);
+  line-height: 1;
+}
+
+.icons {
+  margin-top: var(--spacer-xs);
+}
+
+.icons svg {
+  font-size: 3rem;
+  margin: var(--spacer-s);
+
+  color: var(--clr-black);
+}
+
+@media (max-width: 576px) {
+  .skills-body {
+    height: 60vh;
+  }
+  .tools-container p {
+    font-size: var(--fs-m);
+  }
+  .icons svg {
+    font-size: 2rem;
+  }
+  .tools-container h3 {
+    font-size: var(--fs-s);
+  }  
+}
