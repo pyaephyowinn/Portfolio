@@ -47,7 +47,7 @@ const Contact = () => {
       <div className={styles["navbar-container"]}>
         <nav className={styles.navbar}>
           <h1>
-            <Link to={"/"}>Portfolio</Link>
+            <Link to={"/portfolio"}>Portfolio</Link>
           </h1>
         </nav>
       </div>

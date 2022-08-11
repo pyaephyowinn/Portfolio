@@ -44,6 +44,7 @@
 .about-info p {
   max-width: 70ch;
   line-height: 1.75;
+  word-break: keep-all;
   font-size: var(--fs-m);
   font-weight: var(--fw-l);
   word-spacing: 0.2rem;
@@ -72,7 +73,7 @@
 
 @media (max-width: 576px) {
   .about-info p {
-    line-height: 1.25;
+    line-height: 1.4;
   }
   .about-info .btn-contact {
     display: none;

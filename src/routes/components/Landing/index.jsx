@@ -16,7 +16,7 @@ const Landing = () => {
                 <h1>Pyae Phyo Win</h1>
               </div>
               <p>
-                A passionate web developer who love tech and exploring new
+                A passionate web developer who loves tech and exploring new
                 things. I learn myself, design the websites, write the code and
                 love what I am doing.
               </p>
